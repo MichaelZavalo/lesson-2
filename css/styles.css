@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: raleway-reg;
+    src: url("../fonts/raleway-regular.ttf");
+}
+@font-face {
+    font-family: opensans-reg;
+    src: url("../fonts/opensans-regular.ttf");
+}
+@font-face {
+    font-family: opensans-bold;
+    src: url("../fonts/opensans-bold.ttf");
+}
+.container {
+    width: 100%;
+    padding: 107px 0;
+    margin: 0 auto;
+    align-items: center;
+}
+.main-idea h1 {
+    font-family: raleway-reg;
+    font-size: 36px;
+    line-height: 27px;
+    color: #212121;
+    width: 410px;
+    position: relative;
+    margin: 0 auto;
+}
+.main-idea h1::after {
+    content: "";
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    position: absolute;
+    display: block;
+    left: 170px;
+    top: 57px;
+}
+.main-idea p {
+    font-family: opensans-reg;
+    color: #86878b;
+    width: 375px;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.column {
+width: 365px;
+margin: 0 15px;
+text-align: center;
+display: inline-block;
+}
+.content span { 
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.design {
+    background-image: url('../img/light-bulb.png');
+    background-repeat: no-repeat;
+    background-position: 23px;
+}
+.craft {
+    background-image: url('../img/keyboard.png');
+    background-repeat: no-repeat;
+    background-position: 16px;
+}
+.customize {
+    background-image: url('../img/lightning.png');
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+.content h3 {
+    font-family: opensans-bold;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 27px;
+    line-height: 21px;
+}
+.content p {
+    font-family: opensans-reg;
+    font-size: 14px;
+    color: #86878b;
+    margin-top: 23px;
+    line-height: 17px;
+}
